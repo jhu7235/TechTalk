@@ -8,10 +8,219 @@
     tools:context="awesomeapp.creations.myapplication.SecondActivity"
     tools:showIn="@layout/activity_second">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Nick" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Connie" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Bowl Cut" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Mordrid" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Alex S" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Jean" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Raj" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Jason" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Jake" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Anne-Marie" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="@dimen/text_margin"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Madeline" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/signed_in"/>-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

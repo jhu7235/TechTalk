@@ -6,8 +6,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ArrayAdapter;
 
 public class SecondActivity extends AppCompatActivity {
+//    final String[] studentList = getResources().getStringArray(R.array.studentList);
+//    ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(SecondActivity.this, android.R.layout.simple_list_item_1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,5 +27,17 @@ public class SecondActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        /////////////
+
+//        arrayAdapter=new ArrayAdapter<String>(this,
+//                android.R.layout.simple_list_item_1,
+//                studentList);
+//        setListAdapter(arrayAdapter);
+//
+//        for(int i = 0; i<studentList.length; i++) {
+//            arrayAdapter.add(studentList[i]);
+//        }
     }
+
 }
