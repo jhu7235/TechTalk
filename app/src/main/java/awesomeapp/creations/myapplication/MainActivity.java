@@ -19,17 +19,15 @@ public class MainActivity extends AppCompatActivity {
                 | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
                 | View.SYSTEM_UI_FLAG_IMMERSIVE;
         decorView.setSystemUiVisibility(uiOptions);
-
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
-
         actionBar.hide();
 
-//        goToSecondActvity.putExtra();
     }
 
 
     public void onNextClick(View view) {
-//        Intent goToSecondActivity = new Intent(this, ScrollingActivity.class);
-//        startActivities();
+        Intent goToSecondActivity = new Intent(this, SecondActivity.class);
+        startActivity(goToSecondActivity);
+        finish();
     }
 }
